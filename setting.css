@@ -1,0 +1,154 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color:  #212121;
+}
+section{
+    height: 100%;
+    width: 100%;
+}
+#close-icon{
+    color: white;
+    font-size: 30px;
+    font-size: 700;
+    padding: 10px;
+    position: absolute;
+    cursor: pointer;
+    top: 5%;
+    right: 5%;
+}
+#close-icon:hover{
+    background: transparent;
+   border: 1px solid tan;
+   border-radius: 50%;
+}
+.main{
+    height: auto;
+    width: 50%;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid wheat;
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.main h1{
+    text-align: center;
+    padding-top: 5px;
+    color: #fff;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.color-choise{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.color-div{
+    height: 80px;
+    width: 80px ;
+    /* background-color: #fff; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+.color-1{
+    background-color: #fff;
+}
+.color-2{
+  background-color: AliceBlue;
+
+}
+.color-3{
+   background-color: AntiqueWhite;
+
+}
+.color-4{
+background-color: Brown;
+
+}
+.color-5{
+   background-color: BlueViolet;
+
+}
+.color-6{
+   background-color: CadetBlue;
+
+}
+.color-7{
+   background-color: Crimson;
+
+}
+.color-8{
+ background-color:DarkGrey ;
+}
+.color-9{
+    background-color: DarkGreen;
+
+}
+.color-10{
+    background-color: DarkMagenta;
+
+}
+.color-11{
+  background-color: DarkSalmon;
+
+}
+.color-12{
+    background-color: DarkSlateGrey;
+
+}
+.color-13{
+   background-color: DimGray;
+
+}
+.color-14{
+    background-color: Gainsboro;
+
+}
+.color-15{
+    background-color: Lavender;
+
+}
+.color-16{
+   background-color: LightGrey;
+
+}
+.color-17{
+background-color: LightSkyBlue;
+
+}
+.color-18{
+    background-color: Magenta;
+
+}
+.color-19{
+    background-color: Maroon;
+}
+.color-20{
+  background-color: MediumVioletRed;
+
+}
+.color-21{
+   background-color: Navy;
+
+}
+.color-22{
+    background-color: Olive;
+
+}
+.color-23{
+    background-color: Pink;
+
+}
+.color-24{
+   background-color: RosyBrown;
+
+}
